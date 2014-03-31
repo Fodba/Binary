@@ -28,286 +28,288 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.secondesDizaine = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
+            this.components = new System.ComponentModel.Container();
+            this.HeureDizaine2 = new System.Windows.Forms.Label();
+            this.HeureDizaine1 = new System.Windows.Forms.Label();
+            this.HeureUnite1 = new System.Windows.Forms.Label();
+            this.HeureUnite2 = new System.Windows.Forms.Label();
+            this.HeureUnite3 = new System.Windows.Forms.Label();
+            this.HeureUnite4 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.groupBoxHeures = new System.Windows.Forms.GroupBox();
+            this.groupBoxMinutes = new System.Windows.Forms.GroupBox();
+            this.MinuteDizaine3 = new System.Windows.Forms.Label();
+            this.MinuteDizaine2 = new System.Windows.Forms.Label();
+            this.MinuteDizaine1 = new System.Windows.Forms.Label();
+            this.MinuteUnite4 = new System.Windows.Forms.Label();
+            this.MinuteUnite3 = new System.Windows.Forms.Label();
+            this.MinuteUnite2 = new System.Windows.Forms.Label();
+            this.MinuteUnite1 = new System.Windows.Forms.Label();
+            this.groupBoxSecondes = new System.Windows.Forms.GroupBox();
+            this.secondeDizaine3 = new System.Windows.Forms.Label();
+            this.secondeDizaine2 = new System.Windows.Forms.Label();
+            this.secondeDizaine1 = new System.Windows.Forms.Label();
+            this.secondeUnite4 = new System.Windows.Forms.Label();
+            this.secondeUnite3 = new System.Windows.Forms.Label();
+            this.secondeUnite2 = new System.Windows.Forms.Label();
+            this.secondeUnite1 = new System.Windows.Forms.Label();
+            this.groupBoxHeures.SuspendLayout();
+            this.groupBoxMinutes.SuspendLayout();
+            this.groupBoxSecondes.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // HeureDizaine2
             // 
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label1.Location = new System.Drawing.Point(13, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(25, 25);
-            this.label1.TabIndex = 0;
+            this.HeureDizaine2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.HeureDizaine2.Location = new System.Drawing.Point(6, 66);
+            this.HeureDizaine2.Name = "HeureDizaine2";
+            this.HeureDizaine2.Size = new System.Drawing.Size(25, 25);
+            this.HeureDizaine2.TabIndex = 2;
             // 
-            // label2
+            // HeureDizaine1
             // 
-            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label2.Location = new System.Drawing.Point(13, 38);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(25, 25);
-            this.label2.TabIndex = 1;
+            this.HeureDizaine1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.HeureDizaine1.Location = new System.Drawing.Point(6, 91);
+            this.HeureDizaine1.Name = "HeureDizaine1";
+            this.HeureDizaine1.Size = new System.Drawing.Size(25, 25);
+            this.HeureDizaine1.TabIndex = 3;
             // 
-            // label3
+            // HeureUnite1
             // 
-            this.label3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label3.Location = new System.Drawing.Point(13, 63);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(25, 25);
-            this.label3.TabIndex = 2;
+            this.HeureUnite1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.HeureUnite1.Location = new System.Drawing.Point(37, 91);
+            this.HeureUnite1.Name = "HeureUnite1";
+            this.HeureUnite1.Size = new System.Drawing.Size(25, 25);
+            this.HeureUnite1.TabIndex = 7;
             // 
-            // label4
+            // HeureUnite2
             // 
-            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label4.Location = new System.Drawing.Point(13, 88);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(25, 25);
-            this.label4.TabIndex = 3;
+            this.HeureUnite2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.HeureUnite2.Location = new System.Drawing.Point(37, 66);
+            this.HeureUnite2.Name = "HeureUnite2";
+            this.HeureUnite2.Size = new System.Drawing.Size(25, 25);
+            this.HeureUnite2.TabIndex = 6;
             // 
-            // label5
+            // HeureUnite3
             // 
-            this.label5.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label5.Location = new System.Drawing.Point(44, 88);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(25, 25);
-            this.label5.TabIndex = 7;
+            this.HeureUnite3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.HeureUnite3.Location = new System.Drawing.Point(37, 41);
+            this.HeureUnite3.Name = "HeureUnite3";
+            this.HeureUnite3.Size = new System.Drawing.Size(25, 25);
+            this.HeureUnite3.TabIndex = 5;
             // 
-            // label6
+            // HeureUnite4
             // 
-            this.label6.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label6.Location = new System.Drawing.Point(44, 63);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(25, 25);
-            this.label6.TabIndex = 6;
+            this.HeureUnite4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.HeureUnite4.Location = new System.Drawing.Point(37, 16);
+            this.HeureUnite4.Name = "HeureUnite4";
+            this.HeureUnite4.Size = new System.Drawing.Size(25, 25);
+            this.HeureUnite4.TabIndex = 4;
             // 
-            // label7
+            // timer1
             // 
-            this.label7.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label7.Location = new System.Drawing.Point(44, 38);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(25, 25);
-            this.label7.TabIndex = 5;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // label8
+            // groupBoxHeures
             // 
-            this.label8.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label8.Location = new System.Drawing.Point(44, 13);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(25, 25);
-            this.label8.TabIndex = 4;
+            this.groupBoxHeures.Controls.Add(this.HeureDizaine2);
+            this.groupBoxHeures.Controls.Add(this.HeureDizaine1);
+            this.groupBoxHeures.Controls.Add(this.HeureUnite4);
+            this.groupBoxHeures.Controls.Add(this.HeureUnite3);
+            this.groupBoxHeures.Controls.Add(this.HeureUnite2);
+            this.groupBoxHeures.Controls.Add(this.HeureUnite1);
+            this.groupBoxHeures.Location = new System.Drawing.Point(12, 3);
+            this.groupBoxHeures.Name = "groupBoxHeures";
+            this.groupBoxHeures.Size = new System.Drawing.Size(67, 129);
+            this.groupBoxHeures.TabIndex = 24;
+            this.groupBoxHeures.TabStop = false;
             // 
-            // label9
+            // groupBoxMinutes
             // 
-            this.label9.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label9.Location = new System.Drawing.Point(88, 88);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(25, 25);
-            this.label9.TabIndex = 11;
+            this.groupBoxMinutes.Controls.Add(this.MinuteDizaine3);
+            this.groupBoxMinutes.Controls.Add(this.MinuteDizaine2);
+            this.groupBoxMinutes.Controls.Add(this.MinuteDizaine1);
+            this.groupBoxMinutes.Controls.Add(this.MinuteUnite4);
+            this.groupBoxMinutes.Controls.Add(this.MinuteUnite3);
+            this.groupBoxMinutes.Controls.Add(this.MinuteUnite2);
+            this.groupBoxMinutes.Controls.Add(this.MinuteUnite1);
+            this.groupBoxMinutes.Location = new System.Drawing.Point(85, 3);
+            this.groupBoxMinutes.Name = "groupBoxMinutes";
+            this.groupBoxMinutes.Size = new System.Drawing.Size(67, 129);
+            this.groupBoxMinutes.TabIndex = 25;
+            this.groupBoxMinutes.TabStop = false;
             // 
-            // label10
+            // MinuteDizaine3
             // 
-            this.label10.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label10.Location = new System.Drawing.Point(88, 63);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(25, 25);
-            this.label10.TabIndex = 10;
+            this.MinuteDizaine3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.MinuteDizaine3.Location = new System.Drawing.Point(6, 41);
+            this.MinuteDizaine3.Name = "MinuteDizaine3";
+            this.MinuteDizaine3.Size = new System.Drawing.Size(25, 25);
+            this.MinuteDizaine3.TabIndex = 1;
             // 
-            // label11
+            // MinuteDizaine2
             // 
-            this.label11.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label11.Location = new System.Drawing.Point(88, 38);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(25, 25);
-            this.label11.TabIndex = 9;
+            this.MinuteDizaine2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.MinuteDizaine2.Location = new System.Drawing.Point(6, 66);
+            this.MinuteDizaine2.Name = "MinuteDizaine2";
+            this.MinuteDizaine2.Size = new System.Drawing.Size(25, 25);
+            this.MinuteDizaine2.TabIndex = 2;
             // 
-            // label12
+            // MinuteDizaine1
             // 
-            this.label12.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label12.Location = new System.Drawing.Point(88, 13);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(25, 25);
-            this.label12.TabIndex = 8;
+            this.MinuteDizaine1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.MinuteDizaine1.Location = new System.Drawing.Point(6, 91);
+            this.MinuteDizaine1.Name = "MinuteDizaine1";
+            this.MinuteDizaine1.Size = new System.Drawing.Size(25, 25);
+            this.MinuteDizaine1.TabIndex = 3;
             // 
-            // label13
+            // MinuteUnite4
             // 
-            this.label13.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label13.Location = new System.Drawing.Point(119, 88);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(25, 25);
-            this.label13.TabIndex = 15;
+            this.MinuteUnite4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.MinuteUnite4.Location = new System.Drawing.Point(37, 16);
+            this.MinuteUnite4.Name = "MinuteUnite4";
+            this.MinuteUnite4.Size = new System.Drawing.Size(25, 25);
+            this.MinuteUnite4.TabIndex = 4;
             // 
-            // label14
+            // MinuteUnite3
             // 
-            this.label14.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label14.Location = new System.Drawing.Point(119, 63);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(25, 25);
-            this.label14.TabIndex = 14;
+            this.MinuteUnite3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.MinuteUnite3.Location = new System.Drawing.Point(37, 41);
+            this.MinuteUnite3.Name = "MinuteUnite3";
+            this.MinuteUnite3.Size = new System.Drawing.Size(25, 25);
+            this.MinuteUnite3.TabIndex = 5;
             // 
-            // label15
+            // MinuteUnite2
             // 
-            this.label15.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label15.Location = new System.Drawing.Point(119, 38);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(25, 25);
-            this.label15.TabIndex = 13;
+            this.MinuteUnite2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.MinuteUnite2.Location = new System.Drawing.Point(37, 66);
+            this.MinuteUnite2.Name = "MinuteUnite2";
+            this.MinuteUnite2.Size = new System.Drawing.Size(25, 25);
+            this.MinuteUnite2.TabIndex = 6;
             // 
-            // label16
+            // MinuteUnite1
             // 
-            this.label16.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label16.Location = new System.Drawing.Point(119, 13);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(25, 25);
-            this.label16.TabIndex = 12;
+            this.MinuteUnite1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.MinuteUnite1.Location = new System.Drawing.Point(37, 91);
+            this.MinuteUnite1.Name = "MinuteUnite1";
+            this.MinuteUnite1.Size = new System.Drawing.Size(25, 25);
+            this.MinuteUnite1.TabIndex = 7;
             // 
-            // label17
+            // groupBoxSecondes
             // 
-            this.label17.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label17.Location = new System.Drawing.Point(165, 88);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(25, 25);
-            this.label17.TabIndex = 19;
+            this.groupBoxSecondes.Controls.Add(this.secondeDizaine3);
+            this.groupBoxSecondes.Controls.Add(this.secondeDizaine2);
+            this.groupBoxSecondes.Controls.Add(this.secondeDizaine1);
+            this.groupBoxSecondes.Controls.Add(this.secondeUnite4);
+            this.groupBoxSecondes.Controls.Add(this.secondeUnite3);
+            this.groupBoxSecondes.Controls.Add(this.secondeUnite2);
+            this.groupBoxSecondes.Controls.Add(this.secondeUnite1);
+            this.groupBoxSecondes.Location = new System.Drawing.Point(158, 3);
+            this.groupBoxSecondes.Name = "groupBoxSecondes";
+            this.groupBoxSecondes.Size = new System.Drawing.Size(67, 129);
+            this.groupBoxSecondes.TabIndex = 25;
+            this.groupBoxSecondes.TabStop = false;
             // 
-            // label18
+            // secondeDizaine3
             // 
-            this.label18.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label18.Location = new System.Drawing.Point(165, 63);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(25, 25);
-            this.label18.TabIndex = 18;
+            this.secondeDizaine3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.secondeDizaine3.Location = new System.Drawing.Point(6, 41);
+            this.secondeDizaine3.Name = "secondeDizaine3";
+            this.secondeDizaine3.Size = new System.Drawing.Size(25, 25);
+            this.secondeDizaine3.TabIndex = 1;
             // 
-            // label19
+            // secondeDizaine2
             // 
-            this.label19.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label19.Location = new System.Drawing.Point(165, 38);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(25, 25);
-            this.label19.TabIndex = 17;
+            this.secondeDizaine2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.secondeDizaine2.Location = new System.Drawing.Point(6, 66);
+            this.secondeDizaine2.Name = "secondeDizaine2";
+            this.secondeDizaine2.Size = new System.Drawing.Size(25, 25);
+            this.secondeDizaine2.TabIndex = 2;
             // 
-            // secondesDizaine
+            // secondeDizaine1
             // 
-            this.secondesDizaine.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.secondesDizaine.Location = new System.Drawing.Point(165, 13);
-            this.secondesDizaine.Name = "secondesDizaine";
-            this.secondesDizaine.Size = new System.Drawing.Size(25, 25);
-            this.secondesDizaine.TabIndex = 16;
+            this.secondeDizaine1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.secondeDizaine1.Location = new System.Drawing.Point(6, 91);
+            this.secondeDizaine1.Name = "secondeDizaine1";
+            this.secondeDizaine1.Size = new System.Drawing.Size(25, 25);
+            this.secondeDizaine1.TabIndex = 3;
             // 
-            // label21
+            // secondeUnite4
             // 
-            this.label21.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label21.Location = new System.Drawing.Point(196, 88);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(25, 25);
-            this.label21.TabIndex = 23;
+            this.secondeUnite4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.secondeUnite4.Location = new System.Drawing.Point(37, 16);
+            this.secondeUnite4.Name = "secondeUnite4";
+            this.secondeUnite4.Size = new System.Drawing.Size(25, 25);
+            this.secondeUnite4.TabIndex = 4;
             // 
-            // label22
+            // secondeUnite3
             // 
-            this.label22.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label22.Location = new System.Drawing.Point(196, 63);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(25, 25);
-            this.label22.TabIndex = 22;
+            this.secondeUnite3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.secondeUnite3.Location = new System.Drawing.Point(37, 41);
+            this.secondeUnite3.Name = "secondeUnite3";
+            this.secondeUnite3.Size = new System.Drawing.Size(25, 25);
+            this.secondeUnite3.TabIndex = 5;
             // 
-            // label23
+            // secondeUnite2
             // 
-            this.label23.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label23.Location = new System.Drawing.Point(196, 38);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(25, 25);
-            this.label23.TabIndex = 21;
+            this.secondeUnite2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.secondeUnite2.Location = new System.Drawing.Point(37, 66);
+            this.secondeUnite2.Name = "secondeUnite2";
+            this.secondeUnite2.Size = new System.Drawing.Size(25, 25);
+            this.secondeUnite2.TabIndex = 6;
             // 
-            // label24
+            // secondeUnite1
             // 
-            this.label24.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label24.Location = new System.Drawing.Point(196, 13);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(25, 25);
-            this.label24.TabIndex = 20;
+            this.secondeUnite1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.secondeUnite1.Location = new System.Drawing.Point(37, 91);
+            this.secondeUnite1.Name = "secondeUnite1";
+            this.secondeUnite1.Size = new System.Drawing.Size(25, 25);
+            this.secondeUnite1.TabIndex = 7;
             // 
             // Binary
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(231, 124);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.secondesDizaine);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(233, 140);
+            this.Controls.Add(this.groupBoxSecondes);
+            this.Controls.Add(this.groupBoxMinutes);
+            this.Controls.Add(this.groupBoxHeures);
             this.Name = "Binary";
             this.Text = "Binary";
+            this.groupBoxHeures.ResumeLayout(false);
+            this.groupBoxMinutes.ResumeLayout(false);
+            this.groupBoxSecondes.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label secondesDizaine;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label HeureDizaine2;
+        private System.Windows.Forms.Label HeureDizaine1;
+        private System.Windows.Forms.Label HeureUnite1;
+        private System.Windows.Forms.Label HeureUnite2;
+        private System.Windows.Forms.Label HeureUnite3;
+        private System.Windows.Forms.Label HeureUnite4;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.GroupBox groupBoxHeures;
+        private System.Windows.Forms.GroupBox groupBoxMinutes;
+        private System.Windows.Forms.Label MinuteDizaine3;
+        private System.Windows.Forms.Label MinuteDizaine2;
+        private System.Windows.Forms.Label MinuteDizaine1;
+        private System.Windows.Forms.Label MinuteUnite4;
+        private System.Windows.Forms.Label MinuteUnite3;
+        private System.Windows.Forms.Label MinuteUnite2;
+        private System.Windows.Forms.Label MinuteUnite1;
+        private System.Windows.Forms.GroupBox groupBoxSecondes;
+        private System.Windows.Forms.Label secondeDizaine3;
+        private System.Windows.Forms.Label secondeDizaine2;
+        private System.Windows.Forms.Label secondeDizaine1;
+        private System.Windows.Forms.Label secondeUnite4;
+        private System.Windows.Forms.Label secondeUnite3;
+        private System.Windows.Forms.Label secondeUnite2;
+        private System.Windows.Forms.Label secondeUnite1;
     }
 }
 
