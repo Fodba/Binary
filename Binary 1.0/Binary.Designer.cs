@@ -38,17 +38,17 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBoxHeures = new System.Windows.Forms.GroupBox();
             this.groupBoxMinutes = new System.Windows.Forms.GroupBox();
-            this.MinuteDizaine3 = new System.Windows.Forms.Label();
-            this.MinuteDizaine2 = new System.Windows.Forms.Label();
-            this.MinuteDizaine1 = new System.Windows.Forms.Label();
             this.MinuteUnite4 = new System.Windows.Forms.Label();
+            this.MinuteDizaine3 = new System.Windows.Forms.Label();
             this.MinuteUnite3 = new System.Windows.Forms.Label();
             this.MinuteUnite2 = new System.Windows.Forms.Label();
+            this.MinuteDizaine2 = new System.Windows.Forms.Label();
             this.MinuteUnite1 = new System.Windows.Forms.Label();
+            this.MinuteDizaine1 = new System.Windows.Forms.Label();
             this.groupBoxSecondes = new System.Windows.Forms.GroupBox();
-            this.secondeDizaine3 = new System.Windows.Forms.Label();
             this.secondeDizaine2 = new System.Windows.Forms.Label();
             this.secondeDizaine1 = new System.Windows.Forms.Label();
+            this.secondeDizaine3 = new System.Windows.Forms.Label();
             this.secondeUnite4 = new System.Windows.Forms.Label();
             this.secondeUnite3 = new System.Windows.Forms.Label();
             this.secondeUnite2 = new System.Windows.Forms.Label();
@@ -142,30 +142,6 @@
             this.groupBoxMinutes.TabIndex = 25;
             this.groupBoxMinutes.TabStop = false;
             // 
-            // MinuteDizaine3
-            // 
-            this.MinuteDizaine3.BackColor = System.Drawing.Color.MidnightBlue;
-            this.MinuteDizaine3.Location = new System.Drawing.Point(5, 51);
-            this.MinuteDizaine3.Name = "MinuteDizaine3";
-            this.MinuteDizaine3.Size = new System.Drawing.Size(25, 25);
-            this.MinuteDizaine3.TabIndex = 1;
-            // 
-            // MinuteDizaine2
-            // 
-            this.MinuteDizaine2.BackColor = System.Drawing.Color.MidnightBlue;
-            this.MinuteDizaine2.Location = new System.Drawing.Point(5, 85);
-            this.MinuteDizaine2.Name = "MinuteDizaine2";
-            this.MinuteDizaine2.Size = new System.Drawing.Size(25, 25);
-            this.MinuteDizaine2.TabIndex = 2;
-            // 
-            // MinuteDizaine1
-            // 
-            this.MinuteDizaine1.BackColor = System.Drawing.Color.MidnightBlue;
-            this.MinuteDizaine1.Location = new System.Drawing.Point(5, 121);
-            this.MinuteDizaine1.Name = "MinuteDizaine1";
-            this.MinuteDizaine1.Size = new System.Drawing.Size(25, 25);
-            this.MinuteDizaine1.TabIndex = 3;
-            // 
             // MinuteUnite4
             // 
             this.MinuteUnite4.BackColor = System.Drawing.Color.MidnightBlue;
@@ -173,6 +149,14 @@
             this.MinuteUnite4.Name = "MinuteUnite4";
             this.MinuteUnite4.Size = new System.Drawing.Size(25, 25);
             this.MinuteUnite4.TabIndex = 4;
+            // 
+            // MinuteDizaine3
+            // 
+            this.MinuteDizaine3.BackColor = System.Drawing.Color.MidnightBlue;
+            this.MinuteDizaine3.Location = new System.Drawing.Point(5, 51);
+            this.MinuteDizaine3.Name = "MinuteDizaine3";
+            this.MinuteDizaine3.Size = new System.Drawing.Size(25, 25);
+            this.MinuteDizaine3.TabIndex = 1;
             // 
             // MinuteUnite3
             // 
@@ -190,6 +174,14 @@
             this.MinuteUnite2.Size = new System.Drawing.Size(25, 25);
             this.MinuteUnite2.TabIndex = 6;
             // 
+            // MinuteDizaine2
+            // 
+            this.MinuteDizaine2.BackColor = System.Drawing.Color.MidnightBlue;
+            this.MinuteDizaine2.Location = new System.Drawing.Point(5, 85);
+            this.MinuteDizaine2.Name = "MinuteDizaine2";
+            this.MinuteDizaine2.Size = new System.Drawing.Size(25, 25);
+            this.MinuteDizaine2.TabIndex = 2;
+            // 
             // MinuteUnite1
             // 
             this.MinuteUnite1.BackColor = System.Drawing.Color.MidnightBlue;
@@ -197,6 +189,14 @@
             this.MinuteUnite1.Name = "MinuteUnite1";
             this.MinuteUnite1.Size = new System.Drawing.Size(25, 25);
             this.MinuteUnite1.TabIndex = 7;
+            // 
+            // MinuteDizaine1
+            // 
+            this.MinuteDizaine1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.MinuteDizaine1.Location = new System.Drawing.Point(5, 121);
+            this.MinuteDizaine1.Name = "MinuteDizaine1";
+            this.MinuteDizaine1.Size = new System.Drawing.Size(25, 25);
+            this.MinuteDizaine1.TabIndex = 3;
             // 
             // groupBoxSecondes
             // 
@@ -214,14 +214,6 @@
             this.groupBoxSecondes.TabIndex = 25;
             this.groupBoxSecondes.TabStop = false;
             // 
-            // secondeDizaine3
-            // 
-            this.secondeDizaine3.BackColor = System.Drawing.Color.MidnightBlue;
-            this.secondeDizaine3.Location = new System.Drawing.Point(5, 51);
-            this.secondeDizaine3.Name = "secondeDizaine3";
-            this.secondeDizaine3.Size = new System.Drawing.Size(25, 25);
-            this.secondeDizaine3.TabIndex = 1;
-            // 
             // secondeDizaine2
             // 
             this.secondeDizaine2.BackColor = System.Drawing.Color.MidnightBlue;
@@ -237,6 +229,14 @@
             this.secondeDizaine1.Name = "secondeDizaine1";
             this.secondeDizaine1.Size = new System.Drawing.Size(25, 25);
             this.secondeDizaine1.TabIndex = 3;
+            // 
+            // secondeDizaine3
+            // 
+            this.secondeDizaine3.BackColor = System.Drawing.Color.MidnightBlue;
+            this.secondeDizaine3.Location = new System.Drawing.Point(5, 51);
+            this.secondeDizaine3.Name = "secondeDizaine3";
+            this.secondeDizaine3.Size = new System.Drawing.Size(25, 25);
+            this.secondeDizaine3.TabIndex = 1;
             // 
             // secondeUnite4
             // 
@@ -291,8 +291,10 @@
             this.Controls.Add(this.groupBoxSecondes);
             this.Controls.Add(this.groupBoxMinutes);
             this.Controls.Add(this.groupBoxHeures);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Binary";
             this.Text = "Binary";
+            this.BackColorChanged += new System.EventHandler(this.Binary_BackColorChanged);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Binary_KeyUp);
             this.groupBoxHeures.ResumeLayout(false);
             this.groupBoxMinutes.ResumeLayout(false);
