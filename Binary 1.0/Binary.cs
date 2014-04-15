@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Binary_1._0
@@ -14,9 +8,20 @@ namespace Binary_1._0
     {
         static DateTime heureLocale;
         private ChoixSkins Choisir;
-        public Color CouleurHorloge;
-        public Color CouleurBackground;
+
+        /// <summary>
+        /// webForm de classe Binary permettant de passer les variables
+        /// de la form actuelle vers une autre.
+        /// </summary>
         public Binary soi;
+        /// <summary>
+        /// variable déclaré publique afin qu'elle soit accessible par une autre classe.
+        /// </summary>
+        public Color CouleurHorloge;
+        /// <summary>
+        /// variable déclaré publique afin qu'elle soit accessible par une autre classe.
+        /// </summary>
+        public Color CouleurBackground;
         public Binary()
         {
             InitializeComponent();
@@ -26,19 +31,25 @@ namespace Binary_1._0
             timer1.Enabled = true;
             timer1.Start();
         }
-        private void initSoi()
-        {
-            //soi = new Binary();
-            soi = this;
-            soi.BackColor = CouleurBackground;
-        }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
             heureLocale = DateTime.Now;
             decoupeHeure(heureLocale);
         }
 
+        /// <summary>
+        /// fonction permettant de copier la fenetre actuelle
+        /// dans une variable afin de la rendre accessible par une autre classe.
+        /// </summary>
+        private void initSoi()
+        {
+            soi = this;
+        }
+
+        /// <summary>
+        /// découpage de l'heure en heure-minute-secondes.
+        /// </summary>
+        /// <param name="heure"></param>
         private void decoupeHeure(DateTime heure)
         {
             afficheHeures(heure.Hour);
@@ -48,6 +59,9 @@ namespace Binary_1._0
         }
 
 
+        /// <summary>
+        /// affichage de l'heure en heure-minutes-secondes.
+        /// </summary>
         private void afficheHeures(int heures)
         {
             int dizaine = heures / 10;
@@ -240,6 +254,9 @@ namespace Binary_1._0
         }
 
 
+        /// <summary>
+        /// remise à 0 de l'horloge.
+        /// </summary>
         private void reinitialiseSecondes()
         {
             secondeUnite1.BackColor = this.BackColor;
@@ -270,6 +287,11 @@ namespace Binary_1._0
             HeureDizaine2.BackColor = this.BackColor;
         }
 
+        /// <summary>
+        /// fonction qui gere les événements clavier.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Binary_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.KeyValue == (char)Keys.A)
@@ -285,7 +307,9 @@ namespace Binary_1._0
             }
             if (e.KeyValue == (char)Keys.S)
             {
+                /// Appel de la fonction de copie de la fenetre actuelle.
                 initSoi();
+                // création de fenetre de configuration.
                 Choisir = new ChoixSkins(soi);
                 Choisir.ShowDialog();
                 reinitialiseHeures();
@@ -294,8 +318,15 @@ namespace Binary_1._0
             }
         }
 
+        /// <summary>
+        /// transmission des nouveaux paramètres à la fenetre principale
+        /// grace à l'événement "BackColorChanged".
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Binary_BackColorChanged(object sender, EventArgs e)
         {
+            /// il ne reste plus qu'a modifier l'arrière-plan de chaque groupBox.
             soi.groupBoxHeures.BackColor = this.BackColor;
             soi.groupBoxMinutes.BackColor = this.BackColor;
             soi.groupBoxSecondes.BackColor = this.BackColor;
