@@ -1,0 +1,4 @@
+﻿améliorations:
+
+	-couleur de la zone d'essai du mode choixskins=couleur déjà en place dans l'horloge.
+	-possibilité de bloquer l'écran au premier plan ou non.
