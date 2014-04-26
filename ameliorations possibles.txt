@@ -1,4 +1,5 @@
 ﻿améliorations:
 
+	-Changer l'algorithme d'affiche: erreur à partir du chiffre 6.
 	-couleur de la zone d'essai du mode choixskins=couleur déjà en place dans l'horloge.
 	-possibilité de bloquer l'écran au premier plan ou non.
