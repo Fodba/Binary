@@ -89,20 +89,19 @@ namespace Binary_1._0
                     HeureUnite3.BackColor = CouleurHorloge;
                     break;
                 case 6:
-                    HeureUnite1.BackColor = CouleurHorloge;
                     HeureUnite2.BackColor = CouleurHorloge;
                     HeureUnite3.BackColor = CouleurHorloge;
                     break;
                 case 7:
-                    HeureUnite4.BackColor = CouleurHorloge;
+                    HeureUnite1.BackColor = CouleurHorloge;
+                    HeureUnite2.BackColor = CouleurHorloge;
+                    HeureUnite3.BackColor = CouleurHorloge;
                     break;
                 case 8:
-                    HeureUnite1.BackColor = CouleurHorloge;
                     HeureUnite4.BackColor = CouleurHorloge;
                     break;
                 case 9:
                     HeureUnite1.BackColor = CouleurHorloge;
-                    HeureUnite2.BackColor = CouleurHorloge;
                     HeureUnite4.BackColor = CouleurHorloge;
                     break;
             }
@@ -145,20 +144,19 @@ namespace Binary_1._0
                     MinuteUnite3.BackColor = CouleurHorloge;
                     break;
                 case 6:
-                    MinuteUnite1.BackColor = CouleurHorloge;
                     MinuteUnite2.BackColor = CouleurHorloge;
                     MinuteUnite3.BackColor = CouleurHorloge;
                     break;
                 case 7:
-                    MinuteUnite4.BackColor = CouleurHorloge;
+                    MinuteUnite1.BackColor = CouleurHorloge;
+                    MinuteUnite2.BackColor = CouleurHorloge;
+                    MinuteUnite3.BackColor = CouleurHorloge;
                     break;
                 case 8:
-                    MinuteUnite1.BackColor = CouleurHorloge;
                     MinuteUnite4.BackColor = CouleurHorloge;
                     break;
                 case 9:
                     MinuteUnite1.BackColor = CouleurHorloge;
-                    MinuteUnite2.BackColor = CouleurHorloge;
                     MinuteUnite4.BackColor = CouleurHorloge;
                     break;
             }
@@ -212,20 +210,19 @@ namespace Binary_1._0
                     secondeUnite3.BackColor = CouleurHorloge;
                     break;
                 case 6:
-                    secondeUnite1.BackColor = CouleurHorloge;
                     secondeUnite2.BackColor = CouleurHorloge;
                     secondeUnite3.BackColor = CouleurHorloge;
                     break;
                 case 7:
-                    secondeUnite4.BackColor = CouleurHorloge;
+                    secondeUnite1.BackColor = CouleurHorloge;
+                    secondeUnite2.BackColor = CouleurHorloge;
+                    secondeUnite3.BackColor = CouleurHorloge;
                     break;
                 case 8:
-                    secondeUnite1.BackColor = CouleurHorloge;
                     secondeUnite4.BackColor = CouleurHorloge;
                     break;
                 case 9:
                     secondeUnite1.BackColor = CouleurHorloge;
-                    secondeUnite2.BackColor = CouleurHorloge;
                     secondeUnite4.BackColor = CouleurHorloge;
                     break;
             }
