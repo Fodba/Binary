@@ -1,4 +1,4 @@
 Binary
 ======
 
-Just a binary clock I wanted to create because I wish I can read binary just as an other language.
+J'ai voulu créer cette horloge binaire dans le but de m'habitueer progressivement à la lecture du binaire.
